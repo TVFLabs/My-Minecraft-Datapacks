@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:music_disc_otherside",
+					"predicates": {
+						"minecraft:custom_data": "{unbound_ender_link:1}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ender_link:bind_step1"
+	}
+}
+

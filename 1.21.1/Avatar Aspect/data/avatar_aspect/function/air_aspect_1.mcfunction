@@ -1,0 +1,1 @@
+data merge entity @e[limit=1,sort=nearest] {Motion:[0.0,1.0,0.0]}

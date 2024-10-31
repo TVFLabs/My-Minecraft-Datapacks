@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"GEG",
+		" G "
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"E": {
+			"item": "minecraft:ender_pearl"
+		}
+	},
+	"result": {
+		"id": "minecraft:music_disc_otherside",
+		"count": 1,
+		"components": {
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true,
+				"eat_seconds": 2000000
+			},
+			"minecraft:custom_data": "{unbound_ender_link:1}",
+			"minecraft:custom_model_data": 1952803941,
+			"minecraft:item_name": "'Ender Link'",
+			"minecraft:max_stack_size": 1,
+			"!minecraft:jukebox_playable": {}
+		}
+	},
+	"show_notification": true
+}

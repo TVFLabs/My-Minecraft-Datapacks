@@ -1,0 +1,82 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"text": "Earth Aspect"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "avatar_aspect:earth_aspect_1"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:damage_source_properties",
+						"predicate": {
+							"is_direct": true
+						}
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:enchantment_level",
+							"amount": {
+								"type": "minecraft:linear",
+								"base": 1,
+								"per_level_above_first": 1
+							}
+						},
+						"range": 1
+					}
+				]
+			},
+			{
+				"affected": "victim",
+				"enchanted": "attacker",
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "avatar_aspect:earth_aspect_2"
+				},
+				"requirements": [
+					{
+						"condition": "minecraft:damage_source_properties",
+						"predicate": {
+							"is_direct": true
+						}
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:enchantment_level",
+							"amount": {
+								"type": "minecraft:linear",
+								"base": 1,
+								"per_level_above_first": 1
+							}
+						},
+						"range": 2
+					}
+				]
+			}
+		]
+	},
+	"exclusive_set": "#avatar_aspect:exclusive_set",
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/fire_aspect",
+	"weight": 2
+}

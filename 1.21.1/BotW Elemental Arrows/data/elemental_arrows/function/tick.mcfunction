@@ -1,0 +1,2 @@
+execute as @e[scores={ice_arrow_delay=..39,ice_arrow_effect=1..}] run scoreboard players add @s ice_arrow_delay 1
+execute as @e[scores={ice_arrow_delay=40..,ice_arrow_effect=1..}] run function elemental_arrows:ice_arrows_hit_mob_scheduled

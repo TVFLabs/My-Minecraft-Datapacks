@@ -1,0 +1,26 @@
+{
+  "type": "backrooms:backrooms",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "backrooms:backrooms",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 16
+        },
+        {
+          "block": "minecraft:andesite",
+          "height": 352
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 16
+        }
+      ],
+      "structure_overrides": "backrooms:backrooms_level2"
+    }
+  }
+}
