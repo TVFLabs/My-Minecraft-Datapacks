@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		{
+			"item": "minecraft:book"
+		},
+		{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "minecraft:nether_star"
+		}
+	],
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:stored_enchantments": {
+				"elemental_arrows:ancient_arrows": 1
+			}
+		}
+	}
+}
