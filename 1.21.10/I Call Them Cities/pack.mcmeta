@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "min_format": 81.0,
+    "max_format": 88.0,
+	"supported_formats": [ 81, 81 ],
+	"pack_format": 81,
+    "description": "Been building these things for like 7 yrs. I call them \"cities\" the world is covered with them..."
+  }
+}
