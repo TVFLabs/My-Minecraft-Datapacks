@@ -1,0 +1,24 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"frequency_reduction_method": "default",
+		"frequency": 1,
+		"salt": 23190,
+		"separation": 0,
+		"spacing": 2
+	},
+	"structures": [
+		{
+			"structure": "backrooms:floor_1_decorations",
+			"weight": 5
+		},
+		{
+			"structure": "backrooms:floor_2_decorations",
+			"weight": 5
+		},
+		{
+			"structure": "backrooms:basement_decorations",
+			"weight": 1
+		}
+	]
+}

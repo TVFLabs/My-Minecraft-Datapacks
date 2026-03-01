@@ -1,0 +1,416 @@
+{
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:armor_stand",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:blank_sign",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:campfire",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:candles",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:ceiling_chain",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:ceiling_lantern",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:chair_stack",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:chest",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:clock_overhang",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:closed_shop",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:couch",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:decorated_pot",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:dispenser",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:flower_pot",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:frosted_glass_wall",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:glass_partition",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:gumball_machine",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:lectern",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:oak_logs",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 50,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:pillar",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:player_base",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:pressure_plate",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:single_floor_torch",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:suspicious_sand_pile",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:rule",
+							"rules": [
+								{
+									"location_predicate": {
+										"predicate_type": "minecraft:always_true"
+									},
+									"input_predicate": {
+										"predicate_type": "minecraft:random_block_match",
+										"block": "minecraft:suspicious_sand",
+										"probability": 0.5
+									},
+									"output_state": {
+										"Name": "minecraft:suspicious_gravel"
+									},
+									"block_entity_modifier": {
+										"type": "minecraft:append_loot",
+										"loot_table": "backrooms:archaeology"
+									}
+								}
+							]
+						},
+						{
+							"processor_type": "minecraft:rule",
+							"rules": [
+								{
+									"location_predicate": {
+										"predicate_type": "minecraft:always_true"
+									},
+									"input_predicate": {
+										"predicate_type": "minecraft:random_block_match",
+										"block": "minecraft:suspicious_sand",
+										"probability": 0.75
+									},
+									"output_state": {
+										"Name": "minecraft:sand"
+									}
+								}
+							]
+						},
+						{
+							"processor_type": "minecraft:rule",
+							"rules": [
+								{
+									"location_predicate": {
+										"predicate_type": "minecraft:always_true"
+									},
+									"input_predicate": {
+										"predicate_type": "minecraft:random_block_match",
+										"block": "minecraft:suspicious_gravel",
+										"probability": 0.75
+									},
+									"output_state": {
+										"Name": "minecraft:gravel"
+									}
+								}
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:white_banner",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:fake_player",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:book_fair",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:closet",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:fridge",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:grass_courtyard",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:leaf_litter",
+				"processors": {
+					"processors": []
+				}
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "backrooms:smile_room",
+				"processors": {
+					"processors": []
+				}
+			}
+		}
+	],
+	"fallback": "minecraft:empty"
+}

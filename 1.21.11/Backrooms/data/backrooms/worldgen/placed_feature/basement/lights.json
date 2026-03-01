@@ -1,0 +1,81 @@
+{
+	"feature": {
+		"config": {
+			"features": [
+				{
+					"chance": 0.5,
+					"feature": {
+						"feature": {
+							"config": {
+								"to_place": {
+									"type": "minecraft:simple_state_provider",
+									"state": {
+										"Name": "minecraft:pearlescent_froglight",
+										"Properties": {
+											"axis": "y"
+										}
+									}
+								}
+							},
+							"type": "minecraft:simple_block"
+						},
+						"placement": [
+							{
+								"type": "minecraft:height_range",
+								"height": {
+									"absolute": 146
+								}
+							},
+							{
+								"type": "minecraft:block_predicate_filter",
+								"predicate": {
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										-1,
+										0
+									],
+									"blocks": "minecraft:air"
+								}
+							}
+						]
+					}
+				},
+				{
+					"chance": 0.5,
+					"feature": {
+						"feature": {
+							"config": {},
+							"type": "minecraft:no_op"
+						},
+						"placement": []
+					}
+				}
+			],
+			"default": {
+				"feature": {
+					"config": {},
+					"type": "minecraft:no_op"
+				},
+				"placement": []
+			}
+		},
+		"type": "minecraft:random_selector"
+	},
+	"placement": [
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 146
+			}
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 0,
+				"max_inclusive": 1
+			}
+		}
+	]
+}
