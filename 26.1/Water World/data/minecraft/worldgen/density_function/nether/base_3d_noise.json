@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:add",
+	"argument1": -1,
+	"argument2": {
+		"type": "minecraft:mul",
+		"argument1": {
+			"type": "minecraft:add",
+			"argument1": {
+				"type": "minecraft:old_blended_noise",
+				"smear_scale_multiplier": 8,
+				"xz_factor": 80,
+				"xz_scale": 0.25,
+				"y_factor": 60,
+				"y_scale": 0.375
+			},
+			"argument2": 1
+		},
+		"argument2": 0.625
+	}
+}

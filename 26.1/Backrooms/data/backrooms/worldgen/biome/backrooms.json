@@ -1,0 +1,41 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": false,
+	"temperature_modifier": "none",
+	"effects": {
+		"water_color": "#3f76e4"
+	},
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": [],
+	"features": [
+		[
+			"backrooms:basement/wall_base",
+			"backrooms:basement/wall",
+			"backrooms:basement/opening_base",
+			"backrooms:basement/opening",
+			"backrooms:basement/lights",
+			"backrooms:floor_1/wall_base",
+			"backrooms:floor_1/wall",
+			"backrooms:floor_1/opening_base",
+			"backrooms:floor_1/opening",
+			"backrooms:floor_1/lights",
+			"backrooms:floor_2/wall_base",
+			"backrooms:floor_2/wall",
+			"backrooms:floor_2/opening_base",
+			"backrooms:floor_2/opening",
+			"backrooms:floor_2/lights"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[]
+	]
+}

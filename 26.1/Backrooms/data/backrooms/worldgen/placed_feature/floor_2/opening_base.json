@@ -1,0 +1,292 @@
+{
+				"feature": {
+					"config": {
+						"features": [
+							{
+								"chance": 1,
+								"feature": {
+									"feature": {
+										"config": {
+											"features": [
+												{
+													"feature": {
+														"config": {
+															"direction": "north",
+															"allowed_placement": {
+																"type": "minecraft:all_of",
+																"predicates": [
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			1,
+																			0,
+																			1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			-1,
+																			0,
+																			1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			0,
+																			0,
+																			1
+																		],
+																		"blocks": "minecraft:bamboo_planks"
+																	}
+																]
+															},
+															"prioritize_tip": false,
+															"layers": [
+																{
+																	"height": {
+																		"type": "minecraft:uniform",
+																		"min_inclusive": 2,
+																		"max_inclusive": 4
+																	},
+																	"provider": {
+																		"type": "minecraft:simple_state_provider",
+																		"state": {
+																			"Name": "minecraft:air"
+																		}
+																	}
+																}
+															]
+														},
+														"type": "minecraft:block_column"
+													},
+													"placement": []
+												},
+												{
+													"feature": {
+														"config": {
+															"direction": "east",
+															"allowed_placement": {
+																"type": "minecraft:all_of",
+																"predicates": [
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			-1,
+																			0,
+																			1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			-1,
+																			0,
+																			-1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			-1,
+																			0,
+																			0
+																		],
+																		"blocks": "minecraft:bamboo_planks"
+																	}
+																]
+															},
+															"prioritize_tip": false,
+															"layers": [
+																{
+																	"height": {
+																		"type": "minecraft:uniform",
+																		"min_inclusive": 2,
+																		"max_inclusive": 4
+																	},
+																	"provider": {
+																		"type": "minecraft:simple_state_provider",
+																		"state": {
+																			"Name": "minecraft:air"
+																		}
+																	}
+																}
+															]
+														},
+														"type": "minecraft:block_column"
+													},
+													"placement": []
+												},
+												{
+													"feature": {
+														"config": {
+															"direction": "south",
+															"allowed_placement": {
+																"type": "minecraft:all_of",
+																"predicates": [
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			1,
+																			0,
+																			-1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			-1,
+																			0,
+																			-1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			0,
+																			0,
+																			-1
+																		],
+																		"blocks": "minecraft:bamboo_planks"
+																	}
+																]
+															},
+															"prioritize_tip": false,
+															"layers": [
+																{
+																	"height": {
+																		"type": "minecraft:uniform",
+																		"min_inclusive": 2,
+																		"max_inclusive": 4
+																	},
+																	"provider": {
+																		"type": "minecraft:simple_state_provider",
+																		"state": {
+																			"Name": "minecraft:air"
+																		}
+																	}
+																}
+															]
+														},
+														"type": "minecraft:block_column"
+													},
+													"placement": []
+												},
+												{
+													"feature": {
+														"config": {
+															"direction": "west",
+															"allowed_placement": {
+																"type": "minecraft:all_of",
+																"predicates": [
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			1,
+																			0,
+																			1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			1,
+																			0,
+																			-1
+																		],
+																		"blocks": "minecraft:air"
+																	},
+																	{
+																		"type": "minecraft:matching_blocks",
+																		"offset": [
+																			1,
+																			0,
+																			0
+																		],
+																		"blocks": "minecraft:bamboo_planks"
+																	}
+																]
+															},
+															"prioritize_tip": false,
+															"layers": [
+																{
+																	"height": {
+																		"type": "minecraft:uniform",
+																		"min_inclusive": 2,
+																		"max_inclusive": 4
+																	},
+																	"provider": {
+																		"type": "minecraft:simple_state_provider",
+																		"state": {
+																			"Name": "minecraft:air"
+																		}
+																	}
+																}
+															]
+														},
+														"type": "minecraft:block_column"
+													},
+													"placement": []
+												}
+											]
+										},
+										"type": "minecraft:simple_random_selector"
+									},
+									"placement": []
+								}
+							},
+							{
+								"chance": 0.1,
+								"feature": {
+									"feature": {
+										"config": {},
+										"type": "minecraft:no_op"
+									},
+									"placement": []
+								}
+							}
+						],
+						"default": {
+							"feature": {
+								"config": {},
+								"type": "minecraft:no_op"
+							},
+							"placement": []
+						}
+					},
+					"type": "minecraft:random_selector"
+				},
+	"placement": [
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 154
+			}
+		},
+		{
+		  "type": "minecraft:count",
+		  "count": 128
+		},
+		{
+		  "type": "minecraft:count",
+		  "count": {
+			"type": "minecraft:uniform",
+			"min_inclusive": 2,
+			"max_inclusive": 4
+		  }
+		},
+		{
+		  "type": "minecraft:random_offset",
+		  "xz_spread": 16,
+		  "y_spread": 0
+		}
+	]
+}

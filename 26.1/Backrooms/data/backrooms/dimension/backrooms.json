@@ -1,0 +1,62 @@
+{
+  "type": "backrooms:backrooms",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "backrooms:backrooms",
+      "lakes": false,
+      "features": true,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 16
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 128
+        },
+        {
+          "block": "minecraft:air",
+          "height": 2
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:brown_wool",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 3
+        },
+        {
+          "block": "minecraft:smooth_stone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:brown_wool",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 3
+        },
+        {
+          "block": "minecraft:smooth_stone",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 128
+        },
+        {
+          "block": "minecraft:bedrock",
+          "height": 16
+        }
+      ],
+      "structure_overrides": "backrooms:backrooms"
+    }
+  }
+}

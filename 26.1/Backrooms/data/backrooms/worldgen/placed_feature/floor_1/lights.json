@@ -1,0 +1,462 @@
+{
+	"feature": {
+		"config": {
+			"features": [
+				{
+					"chance": 1,
+					"feature": {
+						"feature": {
+							"config": {
+								"features": [
+									{
+										"feature": {
+											"config": {
+												"direction": "north",
+												"allowed_placement": {
+													"type": "minecraft:matching_blocks",
+													"offset": [
+														0,
+														-1,
+														1
+													],
+													"blocks": "minecraft:air"
+												},
+												"prioritize_tip": false,
+												"layers": [
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": {
+															"type": "minecraft:uniform",
+															"min_inclusive": 0,
+															"max_inclusive": 1
+														},
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													}
+												]
+											},
+											"type": "minecraft:block_column"
+										},
+										"placement": []
+									},
+									{
+										"feature": {
+											"config": {
+												"direction": "east",
+												"allowed_placement": {
+													"type": "minecraft:matching_blocks",
+													"offset": [
+														-1,
+														-1,
+														0
+													],
+													"blocks": "minecraft:air"
+												},
+												"prioritize_tip": false,
+												"layers": [
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": {
+															"type": "minecraft:uniform",
+															"min_inclusive": 0,
+															"max_inclusive": 1
+														},
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													}
+												]
+											},
+											"type": "minecraft:block_column"
+										},
+										"placement": []
+									},
+									{
+										"feature": {
+											"config": {
+												"direction": "south",
+												"allowed_placement": {
+													"type": "minecraft:matching_blocks",
+													"offset": [
+														0,
+														-1,
+														-1
+													],
+													"blocks": "minecraft:air"
+												},
+												"prioritize_tip": false,
+												"layers": [
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": {
+															"type": "minecraft:uniform",
+															"min_inclusive": 0,
+															"max_inclusive": 1
+														},
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													}
+												]
+											},
+											"type": "minecraft:block_column"
+										},
+										"placement": []
+									},
+									{
+										"feature": {
+											"config": {
+												"direction": "west",
+												"allowed_placement": {
+													"type": "minecraft:matching_blocks",
+													"offset": [
+														1,
+														-1,
+														0
+													],
+													"blocks": "minecraft:air"
+												},
+												"prioritize_tip": false,
+												"layers": [
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": 1,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													},
+													{
+														"height": 2,
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:smooth_stone"
+															}
+														}
+													},
+													{
+														"height": {
+															"type": "minecraft:uniform",
+															"min_inclusive": 0,
+															"max_inclusive": 1
+														},
+														"provider": {
+															"type": "minecraft:simple_state_provider",
+															"state": {
+																"Name": "minecraft:pearlescent_froglight",
+																"Properties": {
+																	"axis": "y"
+																}
+															}
+														}
+													}
+												]
+											},
+											"type": "minecraft:block_column"
+										},
+										"placement": []
+									}
+								]
+							},
+							"type": "minecraft:simple_random_selector"
+						},
+						"placement": [
+							{
+								"type": "minecraft:height_range",
+								"height": {
+									"absolute": 151
+								}
+							}
+						]
+					}
+				},
+				{
+					"chance": 0.05,
+					"feature": {
+						"feature": {
+							"config": {},
+							"type": "minecraft:no_op"
+						},
+						"placement": []
+					}
+				}
+			],
+			"default": {
+				"feature": {
+					"config": {},
+					"type": "minecraft:no_op"
+				},
+				"placement": []
+			}
+		},
+		"type": "minecraft:random_selector"
+	},
+	"placement": [
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"absolute": 151
+			}
+		},
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": {
+				"type": "minecraft:uniform",
+				"min_inclusive": 1,
+				"max_inclusive": 3
+			}
+		}
+	]
+}

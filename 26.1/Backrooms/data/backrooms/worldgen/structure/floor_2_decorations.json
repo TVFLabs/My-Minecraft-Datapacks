@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": [
+		"backrooms:backrooms"
+	],
+	"step": "vegetal_decoration",
+	"terrain_adaptation": "none",
+	"spawn_overrides": {},
+	"start_pool": "backrooms:floor_1_decorations",
+	"size": 1,
+	"start_height": {
+		"absolute": 153
+	},
+	"max_distance_from_center": 128,
+	"use_expansion_hack": false,
+	"pool_aliases": [],
+	"liquid_settings": "apply_waterlogging"
+}

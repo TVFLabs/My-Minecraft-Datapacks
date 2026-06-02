@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 20083232,
+		"separation": 3,
+		"spacing": 6
+	},
+	"structures": [
+		{
+			"structure": "backrooms:stairs",
+			"weight": 1
+		}
+	]
+}
