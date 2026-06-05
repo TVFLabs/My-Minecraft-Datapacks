@@ -271,21 +271,29 @@
         "absolute": 149
       }
     },
-    {
-      "type": "minecraft:count",
-      "count": 128
+	{
+		"type": "minecraft:count",
+		"count": {
+			"type": "minecraft:uniform",
+			"min_inclusive": 2,
+			"max_inclusive": 4
+		}
+	},
+	{
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 2,
-        "max_inclusive": 4
-      }
+      "count": 32
     },
     {
       "type": "minecraft:random_offset",
-      "xz_spread": 16,
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 16,
+        "min": -16,
+        "plateau": 0
+      },
       "y_spread": 0
     }
   ]
